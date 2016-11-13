@@ -1,0 +1,77 @@
+body{
+	background-color: #eff0f4;
+}
+.header{
+	 width: 100%; 
+	 background-color: #5fc0cd;
+	 height: 4rem;
+}
+.left{
+	 width: 31%;
+	 margin:1rem 1% 1rem 1%;
+	 font-size: 1.5rem;
+	 color: white;
+	 float: left;
+}
+.center{
+	 width: 31%;
+	 font-size: 2rem;
+	 color: white;
+	 margin: 1rem 2% 1rem 1% ;
+	 float: left;
+	 text-align: center;
+} 
+.right{
+	 width: 31%;
+	 margin:1rem 1% 1rem 1%;
+	 font-size: 1.5rem;
+	 color: white;
+	 float: left;
+	 text-align: right;
+}
+.phone{
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+    background-color: white;
+ }
+ .phonenumber{
+ 	width: 100%;
+ 	height: 5rem;
+ 	background: url(../img/iphone.png) 5% 50% no-repeat,url(../img/shu.png) 20% 50% no-repeat;
+ 	text-indent: 25%;
+ 	font-size: 1.5rem;
+ 	border: none;
+ }
+ 
+.lock{
+	width: 100%;
+	margin-bottom: 5%;
+}
+.password{
+	width: 100%;
+	height: 5rem;
+	background: url(../img/locked2.png) 5% 50% no-repeat,url(../img/shu.png) 20% 50% no-repeat;
+	text-indent: 25%;
+	font-size: 1.5rem;
+	background-color: white;
+	border: none;
+}
+.login{
+	display: block;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #5fc0cd;
+	color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+.forget{
+	display: block;
+	padding-top: 2%;
+	padding-right: 2%;
+	float:right;
+	font-size:1.5rem;
+	color:#83ccd7;
+}
+
