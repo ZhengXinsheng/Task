@@ -1,0 +1,171 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+}
+@media only screen and (min-width:570px ) and (max-width:680px){
+	html{font-size: 14px;}
+}
+@media only screen and (min-width:420px ) and (max-width:570px){
+	html{font-size:12px;}
+}
+@media only screen and (min-width:360px) and (max-width:420px ) {
+	html{font-size:10px;}
+}
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+	html{font-size: 8px;}
+}
+body{
+	width: 100%;
+	max-width: 720px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+ol{
+	list-style:none; 
+}
+.header{
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+	background-color:#5fc0cd ;
+}
+.employer{
+	float: left;
+	width: 20%;
+	margin:1% 0 1% 30%;
+	padding: 2% 0 2% 0;
+	border-radius:10px;
+	background-color: #55a8b3;
+	font-size: 1.75rem;
+	color: white;
+}
+.worker{
+	float:left;
+	width: 20%;
+	margin:1% 0 1% 0;
+	padding: 2% 0 2% 0;
+	border-radius:10px; 
+	background-color: white;
+	font-size: 1.75rem;
+	color: #5fc0cd;
+}
+.position{
+	float: right ;
+	width: 10%;
+	margin:1% 0 1% 0;
+	padding-top: 2%;
+	padding-left: 5%;
+}
+.content{
+	width:100%;
+	float: left;
+}
+.main{
+	float: left;
+	width: 100%;
+	border-bottom: 1px #5FC0CD solid;
+}
+.location{
+	float: left;
+	width: 31%;
+	font-size:1.5rem;
+	color:#5fc0cd;
+	margin: 2% 1% 2% 2%;
+	text-align: center;
+	border-right: 1px #5fc0cd solid;
+}
+.bed{
+	float: left;
+	width: 31%;
+	font-size:1.5rem;
+	color:#5fc0cd;
+	margin: 2% 1% 2% 1%;
+	text-align: center;
+	border-right: 1px #5fc0cd solid;
+}
+.condition{
+	float: left;
+	width: 31%;
+	font-size:1.5rem;
+	color:#5fc0cd;
+	margin: 2% 1% 2% 1%;
+	text-align: center;
+}
+.part1,.part2,.part3,.part4,.part5{
+	float: left;
+	width: 100%;
+	font-size: 1.25rem;
+	border-bottom: 1px #5fc0cd solid;
+}
+.part1 li,.part2 li,.part3 li,.part4 li,.part5 li{
+	width: 85%;
+	margin: 2% 0 2% 5%;	
+	padding-left: 5%;
+}
+.survice-time{
+	background: url(../img/T6-2.png) 0% 50% no-repeat;
+	background-size: 1.5rem;
+	color:#5fc0cd;
+}
+.address{
+	background:url(../img/T6-3.png) 0 100% no-repeat;
+	background-size: 1.5rem;
+	color:#5fc0cd;
+}
+.require{
+	width: 100%;
+	float: left;
+	margin: 0;
+}
+.date{
+	float: left;
+	width: 50%;
+    margin: 2% 0 2% 0;
+}
+.price{
+	float: left;
+	width: 20%;
+	background: url(../img/T6-7.png)100% 50% no-repeat;
+	background-size: 1.5rem;
+	margin: 2% 0 2% 0;
+	padding: 0 5% 0 25%;
+	color: #e63b0e;
+}
+.footer{
+	float: left;
+	width: 100%;
+	position: fixed;
+	top: 85%;
+	bottom: 5%;
+	left:0;
+}
+.home-page{
+	width: 10%;
+	float: left;
+	margin:2% 0% 2% 25%;
+	color: ;
+	text-align: center;
+	font-size: 1rem;
+	}
+.write{
+	width: 1.5rem;
+	height: 1.5rem;
+	float: left;
+	border-radius: 50%;
+	margin: 2% 10% 2% 10%;
+	padding: 2%;
+	text-align: center;	
+	background-color: #55A8B3;
+}
+.mine{
+	width: 10%;
+	float: right;
+	margin: 2% 25% 2% 0%;
+	text-align: center;
+	font-size: 1rem;
+}
+.image{
+	width: 1.75rem;
+}
+
